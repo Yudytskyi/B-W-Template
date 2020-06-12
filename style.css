@@ -1,0 +1,32 @@
+@import "./Styles/header.css";
+@import "./Styles/hero.css";
+
+body {
+  width: 100vw;
+  min-width: 320px;
+  margin: 0;
+  font-size: 16px;
+  color: #fefefe;
+  line-height: 1.2em;
+  font-family: "Roboto";
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300;400&family=Roboto&display=swap");
+
+@font-face {
+  font-family: "HelveticaNeue Regular";
+  src: url("/src/fonts/HelveticaNeue-CondensedRegular.woff") format("woff2"),
+    url("/src/fonts/HelveticaNeue-CondensedRegular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "HelveticaNeue Black";
+  src: url("/src/fonts/HelveticaNeue-CondensedBlack.woff") format("woff2"),
+    url("/src/fonts/HelveticaNeue-CondensedBlack.ttf") format("ttf");
+}
